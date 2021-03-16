@@ -1,0 +1,188 @@
+body,
+input {
+	font-family: 'Segoe UI', Helvetica, Arial, Sans-Serif;
+	font-size: 13px;
+	margin: 0px;
+}
+ 
+
+.boton {
+	border: 1px solid #c8c9c9;
+	padding: 10px 20px 10px 20px;
+	outline: none;
+	text-decoration: none;
+	color:black;
+}
+input {
+	border: 1px solid #c8c9c9;
+	line-height: 30px;
+}
+input:hover {
+	border: 1px solid #91c46b;
+}
+
+.info {
+	background-color: #afcc98;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.boton,input[type=submit] { 
+	border: 1px solid #000;
+	font-weight: bold;	
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.boton:hover, input[type=submit]:hover { 
+	background-color: #000;
+	color:#FFF;
+}
+
+input#enviar {
+	border: 1px solid #000;
+}
+
+input#usuario,
+input#contrasena {
+	width: 90%;
+}
+
+
+input[type=checkbox]{
+	height: 16px;
+	width: 16px;
+}
+label {
+	vertical-align: text-top;
+}
+table {
+	border-collapse: collapse;
+	background-color: #f3f3f3;
+  }
+
+td{
+	border: 1px solid #FFF;
+	padding: 10px;
+	vertical-align: top;
+
+}
+tr:hover {
+	background-color: #ececec;
+  }
+
+.gris {
+	background-color: #c8c9c9;
+}
+
+.verde {
+	background-color: #91c46b;
+}
+
+.claro {
+	background-color: #f3f3f3;
+}
+
+.login {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+}
+
+.icono {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+}
+.icono-chico {
+	width: 24px;
+	height: 24px;
+
+}
+
+.redondo {
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+	margin: 4px;
+}
+
+.borde {
+	border: 1px solid #c8c9c9;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.izquierda {
+	text-align: left;
+}
+
+.derecha {
+	text-align: right;
+}
+
+.linea {
+	border: 1px dashed;
+}
+.negrita {
+	font-weight: bold;
+	}
+
+.ancho {
+	width: 100%;
+}
+
+span { vertical-align: text-bottom; }
+
+.titulo{
+	padding: 20px;
+	font-size: 20px;
+}
+
+.contenido {
+	margin-left: 20px;
+	margin-right: 30px;
+	padding-top: 30px;
+}
+.miniboton{
+	text-decoration: none;
+	color:grey;
+}
+.miniboton:hover{
+	color: black;
+}
+
+
+.menusuperior{
+	width: 100%;
+	height: 30px;
+	background-color: #006400;
+	z-index: 10;
+	position: fixed;
+}
+.elementomenu{
+	padding-left: 17px;
+	padding-right: 17px;
+	line-height: 30px;
+	float:left;
+	color: #FFF;
+	text-decoration: none;
+}
+.elementomenu:hover{
+	background-color: rgb(0, 165, 0);
+}
+.elementouser{
+	text-align: right;
+	color: #FFF;
+	}
+.elementouser a{
+	text-decoration: none;
+	color: white;
+}
+.activo{
+	background-color: #FFF;
+	color: #000;
+}
